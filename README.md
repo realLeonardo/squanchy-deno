@@ -1,6 +1,6 @@
-# 爬虫 in deno
+# Superize deno
 
-## List
+## TODO
 
-* 必应搜索每日背景图片
-* and so on...
+* [x] 爬取必应搜索每日背景图片
+* [ ] and so on...

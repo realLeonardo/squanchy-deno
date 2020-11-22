@@ -6,11 +6,11 @@
  * 2. 解析出<div id="bgImgProgLoad" data-ultra-definition-src="/th?id=xxx.jpg;">
  * 3. 拼接出 https://cn.bing.com/th?id=xxxx.jpg，download it
  */
-import { downloadFile, fetchHtml } from "./utils.ts";
+import { downloadFile, fetchHtml } from "../utils.ts";
 
 const BING_SEARCH_URL = "https://cn.bing.com";
 // File save path
-const FILT_SAVE_PATH = "bing-imgs/";
+const FILT_SAVE_PATH = "imgs/";
 // Bing图片src正则
 const IMG_SRC_REG =
   /<div id=\"bgImgProgLoad\" data-ultra-definition-src=\"\/th\?id=(.*?)&/s;
